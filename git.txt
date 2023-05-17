@@ -1,0 +1,6 @@
+yum update -y
+yum install git -y
+mkdir git
+git init
+git configure global user.name "username"
+git configure global user.email "useremail"
